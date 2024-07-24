@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.scrollable-list {
+    margin: 10px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.text-client-table {
+    font-family: monospace; /* Monospaced font for consistent spacing */
+    border-collapse: separate;
+}
+
+
+    .text-client-table th,
+    .text-client-table td {
+        border: 1px solid #ddd; /* Light gray border for cells */
+        padding: 5px; /* Add some padding for readability */
+    }
+
+    .text-client-table thead th {
+        border: 1px solid #808080;
+        background-color: #eee; /* Light background for headers */
+        top: 0px;
+        position:sticky;
+    }
+
+    .text-client-table tbody {
+        background-color:aliceblue;
+    }
